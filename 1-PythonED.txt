@@ -1,142 +1,142 @@
 @fmasanori 
 about.me/fmasanori
 github.com/fmasanori/ED
-bit.ly/PythonED (arquivo zipado)
+bit.ly/PythonED
 
-Eu amo Estrutura de Dados. Apresentação para iniciantes! Se você acredita que isso é possível, venha curtir uma pequena amostra de códigos e discussões apaixonadas. Recursão. Vetores. Pilhas e Filas. Algoritmos de Ordenação: inserção, seleção, mergesort, quicksort. Algoritmos de Enumeração. Boyer-Moore. Teoria dos Grafos. Deixe seus traumas e venha ser feliz.
+Eu amo Estrutura de Dados. ApresentaÃ§Ã£o para iniciantes! Se vocÃª acredita que isso Ã© possÃ­vel, venha curtir uma pequena amostra de cÃ³digos e discussÃµes apaixonadas. RecursÃ£o. Vetores. Pilhas e Filas. Algoritmos de OrdenaÃ§Ã£o: inserÃ§Ã£o, seleÃ§Ã£o, mergesort, quicksort. Algoritmos de EnumeraÃ§Ã£o. Boyer-Moore. Teoria dos Grafos. Deixe seus traumas e venha ser feliz.
 
-@Ver a "alma" do código à luz dos dados
-Algoritmos e Estruturas de Dados na prática
--Amar mais a programação <3
--Soluções melhores para os problemas
+@Ver a "alma" do cÃ³digo Ã  luz dos dados
+Algoritmos e Estruturas de Dados na prÃ¡tica
+-Amar mais a programaÃ§Ã£o <3
+-SoluÃ§Ãµes melhores para os problemas
 -Processos seletivos
--Decisões de arquitetura
+-DecisÃµes de arquitetura
 
 @Porque Python?
 "the most common fault in computer classes is to emphasize the rules of specific programming languages, instead of to emphasize the algorithms that are being expressed in those languages. It's bad to dwell on form over substance" [Donald E. Knuth, People of ACM Interview]
 
 "Programming is best regarded as the process of creating works of literature, which are meant to be read."  [Donald E. Knuth, Literate Programming]
-"A atividade de programação deve ser encarada como um processo de criação de obras de literatura, escritas para serem lidas." 
+"A atividade de programaÃ§Ã£o deve ser encarada como um processo de criaÃ§Ã£o de obras de literatura, escritas para serem lidas." 
 "to be read by humans first and machines next" [Donald E. Knuth, People of ACM Interview]
 
-@Busca Binária
+@Busca BinÃ¡ria
 "Binary search is to algorithms what a wheel is to mechanics: It is simple, elegant, and immensely important."  [Udi Manber, Introduction to Algorithms]
-"Busca binária é para algoritmos o que a roda é para a mecânica: ela é simples, elegante, e enormemente importante."
+"Busca binÃ¡ria Ã© para algoritmos o que a roda Ã© para a mecÃ¢nica: ela Ã© simples, elegante, e enormemente importante."
 
 "Binary search is a notoriously tricky algorithm to program correctly. It took seventeen years after its invention until the first correct version of binary search was published!"  [Steven Skiena, The Algorithm Design Manual]
-"Busca binária é um algoritmo notoriamente difícil de programar corretamente. Somente dezessete anos depois da invenção do algoritmo a primeira versão correta do programa foi publicada!" 
+"Busca binÃ¡ria Ã© um algoritmo notoriamente difÃ­cil de programar corretamente. Somente dezessete anos depois da invenÃ§Ã£o do algoritmo a primeira versÃ£o correta do programa foi publicada!" 
 
--Imaginem que tenho uma lista, em ordem alfabética, de todos os participantes da conferência. Uma lista com várias folhas... E que quero ver se um nome está na lista. 
--A abordagem mais natural é, dada a primeira letra do nome, procurar no meio da lista. Muito mais eficaz do que ver nome por nome, desde o início.
--Essa abordagem custa log(n, 2) passos. Para ter uma ideia, se tivermos um milhão de itens, demoramos apenas 20 passos para a busca.
+-Imaginem que tenho uma lista, em ordem alfabÃ©tica, de todos os participantes da conferÃªncia. Uma lista com vÃ¡rias folhas... E que quero ver se um nome estÃ¡ na lista. 
+-A abordagem mais natural Ã©, dada a primeira letra do nome, procurar no meio da lista. Muito mais eficaz do que ver nome por nome, desde o inÃ­cio.
+-Essa abordagem custa log(n, 2) passos. Para ter uma ideia, se tivermos um milhÃ£o de itens, demoramos apenas 20 passos para a busca.
 
-@Ver a "alma" do código
-"You don't have to believe in God, but you should believe in The Book." [Paul Erdös]
--Sendo ateu, Paul Erdos se referia a um Livro imaginário, onde Deus teria escrito as demonstrações mais elegantes de todos os teoremas
--Demonstrações de Paul Erdos geraram inúmeros algoritmos, principalmente na área de Análise Combinatória e Teoria dos Grafos
--No mestrado trabalhei com o Problema dos Uns Consecutivos, que tem aplicações em Sequenciamento de DNA, especificamente Mapeamento Físico de DNA
--Numa matriz de zeros e uns, será que existe uma permutação de linhas, onde as colunas ficam com uns consecutivos?
--Usando o método Extensão Rotação, para detecção de Circuitos Hamiltonianos, junto com um algoritmo guloso, para o Problema dos Conjuntos Independentes, consegui a aproximação mais rápida para o problema
+@Ver a "alma" do cÃ³digo
+"You don't have to believe in God, but you should believe in The Book." [Paul ErdÃ¶s]
+-Sendo ateu, Paul Erdos se referia a um Livro imaginÃ¡rio, onde Deus teria escrito as demonstraÃ§Ãµes mais elegantes de todos os teoremas
+-DemonstraÃ§Ãµes de Paul Erdos geraram inÃºmeros algoritmos, principalmente na Ã¡rea de AnÃ¡lise CombinatÃ³ria e Teoria dos Grafos
+-No mestrado trabalhei com o Problema dos Uns Consecutivos, que tem aplicaÃ§Ãµes em Sequenciamento de DNA, especificamente Mapeamento FÃ­sico de DNA
+-Numa matriz de zeros e uns, serÃ¡ que existe uma permutaÃ§Ã£o de linhas, onde as colunas ficam com uns consecutivos?
+-Usando o mÃ©todo ExtensÃ£o RotaÃ§Ã£o, para detecÃ§Ã£o de Circuitos Hamiltonianos, junto com um algoritmo guloso, para o Problema dos Conjuntos Independentes, consegui a aproximaÃ§Ã£o mais rÃ¡pida para o problema
 
 @Mergesort
 -Merge = intercalar
--Imaginem que você tem duas fileiras de crianças em ordem crescente de altura
--Para ordenar uma fileira geral, vejo a primeira criança de cada fileira e vou passando para o início da nova fileira
+-Imaginem que vocÃª tem duas fileiras de crianÃ§as em ordem crescente de altura
+-Para ordenar uma fileira geral, vejo a primeira crianÃ§a de cada fileira e vou passando para o inÃ­cio da nova fileira
 -Como inicio o processo?
--Vou montando pares de crianças em ordem
+-Vou montando pares de crianÃ§as em ordem
 -Depois quadruplas etc, dobrando a cada passo
--Número ímpar não é problema
+-NÃºmero Ã­mpar nÃ£o Ã© problema
 
 @Mergesort interativo 
 -Rolo compressor que vai juntando fileiras
--Fileiras começam com tamanho 1
--São geradas fileiras de tamanho 2 ordenadas
+-Fileiras comeÃ§am com tamanho 1
+-SÃ£o geradas fileiras de tamanho 2 ordenadas
 -Tamanho 4, 8, 16...
--Num determinado passo o vetor está ordenado
--Algoritmos "enrolado", pois a vocação do dado é recursiva
+-Num determinado passo o vetor estÃ¡ ordenado
+-Algoritmos "enrolado", pois a vocaÃ§Ã£o do dado Ã© recursiva
 
 @Mergesort recursivo
--O número de passos na recursão é log(n, 2) pois a "alma" é a mesma que o algoritmo de busca binária
+-O nÃºmero de passos na recursÃ£o Ã© log(n, 2) pois a "alma" Ã© a mesma que o algoritmo de busca binÃ¡ria
 -Cada merge compara todo mundo
 -Custo total: n * log(n, 2)
--As partes são independentes, podemos fazê-las em paralelo
--No intercala podemos usar um método online
+-As partes sÃ£o independentes, podemos fazÃª-las em paralelo
+-No intercala podemos usar um mÃ©todo online
 
-@Nem todo algoritmo recursivo é eficiente
-"A Computação se apoia sobre três pernas: a correção, a eficiência e a elegância." [Imre Simon]
-Correção: cumpre o prometido, ou seja, se faz o que promete fazer. Eficiente: não perde tempo à toa. Elegante: simples, limpo e econômico. 
+@Nem todo algoritmo recursivo Ã© eficiente
+"A ComputaÃ§Ã£o se apoia sobre trÃªs pernas: a correÃ§Ã£o, a eficiÃªncia e a elegÃ¢ncia." [Imre Simon]
+CorreÃ§Ã£o: cumpre o prometido, ou seja, se faz o que promete fazer. Eficiente: nÃ£o perde tempo Ã  toa. Elegante: simples, limpo e econÃ´mico. 
 
 @Fibonacci recursivo
--Vemos que repetimos várias vezes valores de n já calculados
--Podemos resolver com um dicionário
+-Vemos que repetimos vÃ¡rias vezes valores de n jÃ¡ calculados
+-Podemos resolver com um dicionÃ¡rio
 -Ou usando lru_cache
 -Usar uma Estrutura de Dados tornou nosso algoritmo eficiente
 
-@Expressão bem formada usando Pilhas
+@ExpressÃ£o bem formada usando Pilhas
 -Empilho todos os abres
--Se é um fecha, verifico no topo da pilha se "casa"
+-Se Ã© um fecha, verifico no topo da pilha se "casa"
 -Caso positivo desempilha
--Se sobrou alguém no final não é bem formada
+-Se sobrou alguÃ©m no final nÃ£o Ã© bem formada
 
-@Distâncias entre um nó e o resto da rede
--A matriz mostra se há caminho de um nó para outro
--Quero calcular o vetor de distâncias 
+@DistÃ¢ncias entre um nÃ³ e o resto da rede
+-A matriz mostra se hÃ¡ caminho de um nÃ³ para outro
+-Quero calcular o vetor de distÃ¢ncias 
 -Enfilero a origem
--Enquanto a fila não está vazia
--Vejo quais nós eu chego e que nunca passei antes
--A distância é +1 em relação ao nó anterior
+-Enquanto a fila nÃ£o estÃ¡ vazia
+-Vejo quais nÃ³s eu chego e que nunca passei antes
+-A distÃ¢ncia Ã© +1 em relaÃ§Ã£o ao nÃ³ anterior
 
-@Um bom algoritmo é uma faca afiada
+@Um bom algoritmo Ã© uma faca afiada
 "A good algorithm is like a sharp knife: it does what it is supposed to do with a minimum amount of applied effort. Using the wrong algorithm to solve a problem is like trying to cut a steak with a screwdriver: you may eventually get a digestible result, but you will expend considerably more effort than necessary, and the result is unlikely to be aesthetically pleasing."  [Th. Cormen, Ch. Leiserson, R. Rivest, Introduction to Algorithms]
-"Um bom algoritmo é como uma faca afiada: ele faz o que dele se espera com o mínima de esforço. Usar um algoritmo errado para resolver um problema é como tentar cortar um bife com uma chave de fenda: você pode até mesmo conseguir um resultado aceitável, mas você gastará muito mais esforço que o necessário e é pouco provável que o resultado será esteticamente agradável." 
+"Um bom algoritmo Ã© como uma faca afiada: ele faz o que dele se espera com o mÃ­nima de esforÃ§o. Usar um algoritmo errado para resolver um problema Ã© como tentar cortar um bife com uma chave de fenda: vocÃª pode atÃ© mesmo conseguir um resultado aceitÃ¡vel, mas vocÃª gastarÃ¡ muito mais esforÃ§o que o necessÃ¡rio e Ã© pouco provÃ¡vel que o resultado serÃ¡ esteticamente agradÃ¡vel." 
 
 @Boyer Moore
 -Busca de uma palavra em um texto
--Trecho de DNA numa sequência
--Trecho de código na memória ou disco
+-Trecho de DNA numa sequÃªncia
+-Trecho de cÃ³digo na memÃ³ria ou disco
 -Buscar sequencialmente obriga a andar de um em um
 -Posso aproveitar a palavra (usar o Dado que tenho)
--Expliquei Estrutura de Dados e especialmente Boyer Moore para um amigo físico, gostou tanto que fez pós na Computação e hoje é docente do IME USP
+-Expliquei Estrutura de Dados e especialmente Boyer Moore para um amigo fÃ­sico, gostou tanto que fez pÃ³s na ComputaÃ§Ã£o e hoje Ã© docente do IME USP
 
-Os algoritmos de ordenação
+Os algoritmos de ordenaÃ§Ã£o
 algoritmo
 
-@Codificar algo simples é difícil
+@Codificar algo simples Ã© difÃ­cil
 "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult." [C.A.R.Hoare] 
 
 @Quicksort
 -Quero colocar todo mundo em ordem
--Escolho um voluntário
+-Escolho um voluntÃ¡rio
 -Metade menor vai para um lado e o resto para o outro
--O voluntário estará na posição definitiva
+-O voluntÃ¡rio estarÃ¡ na posiÃ§Ã£o definitiva
 -Repito o processo para cada lado
--Vou dobrar a cada passo o número de elementos "certos"
--Pior caso é encontrar todo mundo já em ordem
--Porém isso é raro, então, na prática funciona bem
+-Vou dobrar a cada passo o nÃºmero de elementos "certos"
+-Pior caso Ã© encontrar todo mundo jÃ¡ em ordem
+-PorÃ©m isso Ã© raro, entÃ£o, na prÃ¡tica funciona bem
 
-@Dois algoritmos com número de passos proporcionais no pior caso, na média podem ser diferentes
+@Dois algoritmos com nÃºmero de passos proporcionais no pior caso, na mÃ©dia podem ser diferentes
 
-"As famílias felizes parecem-se todas; as famílias infelizes são infelizes cada uma à sua maneira." [Anna Kariênina]
+"As famÃ­lias felizes parecem-se todas; as famÃ­lias infelizes sÃ£o infelizes cada uma Ã  sua maneira." [Anna KariÃªnina]
 
-@Inserção e Seleção 
--Ambos são n**2 passos no pior caso
--No entanto, inserção olha para o lado direito, ordenado
--Números grandes não movimentam muito o lado direito
--Seleção olha o menor do lado esquerdo
--Logo não há caso bom, só ruins
+@InserÃ§Ã£o e SeleÃ§Ã£o 
+-Ambos sÃ£o n**2 passos no pior caso
+-No entanto, inserÃ§Ã£o olha para o lado direito, ordenado
+-NÃºmeros grandes nÃ£o movimentam muito o lado direito
+-SeleÃ§Ã£o olha o menor do lado esquerdo
+-Logo nÃ£o hÃ¡ caso bom, sÃ³ ruins
 
-@Força Bruta, Backtracking, Enumeração
+@ForÃ§a Bruta, Backtracking, EnumeraÃ§Ã£o
 
 "Often it appears that there is no better way to solve a problem than to try all possible solutions. This approach, called exhaustive search, is almost always slow, but sometimes it is better than nothing."  [Ian Parberry, Problems on Algorithms]
-"Muitas vezes não há maneira melhor de resolver um problema que tentar todas as possíveis soluções. Esta abordagem, chamada busca exaustiva, é quase sempre lenta, mas às vezes ela é melhor que nada." 
+"Muitas vezes nÃ£o hÃ¡ maneira melhor de resolver um problema que tentar todas as possÃ­veis soluÃ§Ãµes. Esta abordagem, chamada busca exaustiva, Ã© quase sempre lenta, mas Ã s vezes ela Ã© melhor que nada." 
 
 @Arthur Merlim Games
 -Rei Arthur passa dois problemas para o Mago Merlim
--Se todas as damas irão casar, dado suas preferências
--Se é possível colocar os cavaleiros em torno da Távola Redonda, com a condição de não sentarem do lado de alguém que não gostem
--O problema das damas exige gerar todos os subconjuntos, para verificar se os "queridos" do subconjunto estão em menor número
+-Se todas as damas irÃ£o casar, dado suas preferÃªncias
+-Se Ã© possÃ­vel colocar os cavaleiros em torno da TÃ¡vola Redonda, com a condiÃ§Ã£o de nÃ£o sentarem do lado de alguÃ©m que nÃ£o gostem
+-O problema das damas exige gerar todos os subconjuntos, para verificar se os "queridos" do subconjunto estÃ£o em menor nÃºmero
 -O problema dos cavaleiros exige achar um Circuito Hamiltoniano
--Os dois problemas são bem diferentes, não só no tempo, mas em achar um obstrução
+-Os dois problemas sÃ£o bem diferentes, nÃ£o sÃ³ no tempo, mas em achar um obstruÃ§Ã£o
 
 Outros links:
 https://wiki.python.org/moin/TimeComplexity
