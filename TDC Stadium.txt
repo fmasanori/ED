@@ -51,3 +51,10 @@ algoritmo
 "Muitas vezes não há maneira melhor de resolver um problema que tentar todas as possíveis soluções. Esta abordagem, chamada busca exaustiva, é quase sempre lenta, mas às vezes ela é melhor que nada." [Ian Parberry, Problems on Algorithms]
 
 @Arthur Merlim Games
+
+@Heurística Gulosa por Vértice de Grau Mínimo
+
+@fmasanori 
+about.me/fmasanori
+github.com/fmasanori/ED
+bit.ly/PythonED
