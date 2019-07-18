@@ -1,7 +1,7 @@
 @fmasanori 
 about.me/fmasanori
 github.com/fmasanori/ED
-bit.ly/PythonED
+bit.ly/PythonED 
 
 Eu amo Estrutura de Dados. Apresentação para iniciantes! Se você acredita que isso é possível, venha curtir uma pequena amostra de códigos e discussões apaixonadas. Recursão. Vetores. Pilhas e Filas. Algoritmos de Ordenação: inserção, seleção, mergesort, quicksort. Algoritmos de Enumeração. Boyer-Moore. Teoria dos Grafos. Deixe seus traumas e venha ser feliz.
 
@@ -137,6 +137,16 @@ algoritmo
 -O problema das damas exige gerar todos os subconjuntos, para verificar se os "queridos" do subconjunto estão em menor número
 -O problema dos cavaleiros exige achar um Circuito Hamiltoniano
 -Os dois problemas são bem diferentes, não só no tempo, mas em achar um obstrução
+
+@Heurística Gulosa por Vértice de Grau Mínimo
+-Sejam substâncias químicas
+-Se elas reagem perigosamente, possuem uma ligação
+-Quero o maior conjunto que não reaja entre si
+-Problema difícil
+-Aproximação por busca gulosa
+-Vejo o vértice de grau mínimo
+-Retiro os vizinhos
+-Repito até o grafo sumir
 
 Outros links:
 https://wiki.python.org/moin/TimeComplexity
