@@ -1,0 +1,54 @@
+@fmasanori 
+about.me/fmasanori
+github.com/fmasanori/ED
+bit.ly/PythonED 
+
+@Ver a "alma" do código à luz dos dados
+
+@Python
+"the most common fault in computer classes is to emphasize the rules of specific programming languages, instead of to emphasize the algorithms that are being expressed in those languages. It's bad to dwell on form over substance" [Donald E. Knuth, People of ACM Interview]
+
+@Busca Binária - invenção da roda, reutilizada depois
+
+"Busca binária é um algoritmo notoriamente difícil de programar corretamente. Somente dezessete anos depois da invenção do algoritmo a primeira versão correta do programa foi publicada!" [Steven Skiena, The Algorithm Design Manual]
+
+@Ver a "alma" do código
+"You don't have to believe in God, but you should believe in The Book." [Paul Erdös]
+
+@Mergesort
+@Mergesort interativo 
+@Mergesort recursivo
+
+@Nem todo algoritmo recursivo é eficiente
+"A Computação se apoia sobre três pernas: a correção, a eficiência e a elegância." [Imre Simon]
+
+@Fibonacci recursivo
+
+@Expressão bem formada usando Pilhas
+
+@Distâncias entre um nó e o resto da rede
+
+@Um bom algoritmo é uma faca afiada
+"Um bom algoritmo é como uma faca afiada: ele faz o que dele se espera com o mínima de esforço. Usar um algoritmo errado para resolver um problema é como tentar cortar um bife com uma chave de fenda: você pode até mesmo conseguir um resultado aceitável, mas você gastará muito mais esforço que o necessário e é pouco provável que o resultado será esteticamente agradável." [Th. Cormen, Ch. Leiserson, R. Rivest, Introduction to Algorithms]
+ 
+@Boyer Moore
+Os algoritmos de ordenação
+algoritmo
+
+@Codificar algo simples é difícil
+[C.A.R.Hoare] 
+
+@Quicksort
+
+@Dois algoritmos, com número de passos proporcionais no pior caso, na média podem ser diferentes
+
+"As famílias felizes parecem-se todas; as famílias infelizes são infelizes cada uma à sua maneira." [Anna Kariênina]
+
+@Inserção e Seleção 
+
+@Força Bruta, Backtracking, Enumeração
+
+"Muitas vezes não há maneira melhor de resolver um problema que tentar todas as possíveis soluções. Esta abordagem, chamada busca exaustiva, é quase sempre lenta, mas às vezes ela é melhor que nada." [Ian Parberry, Problems on Algorithms]
+
+@Arthur Merlim Games
+
