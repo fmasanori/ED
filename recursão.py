@@ -16,7 +16,7 @@ def sd(n):
 
 def dec2bin(n):
   if n == 0: return ''
-  return str(n % 2) + dec2bin(n // 2)
+  return dec2bin(n // 2) + str(n % 2)
 
 print (pot(2, 3))
 print (mdc(21, 15))
