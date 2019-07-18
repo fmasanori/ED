@@ -3,52 +3,51 @@ about.me/fmasanori
 github.com/fmasanori/ED
 bit.ly/PythonED 
 
-@Ver a "alma" do cÛdigo ‡ luz dos dados
+@Ver a "alma" do c√≥digo √† luz dos dados
 
 @Python
 "the most common fault in computer classes is to emphasize the rules of specific programming languages, instead of to emphasize the algorithms that are being expressed in those languages. It's bad to dwell on form over substance" [Donald E. Knuth, People of ACM Interview]
 
-@Busca Bin·ria - invenÁ„o da roda, reutilizada depois
+@Busca Bin√°ria - inven√ß√£o da roda, reutilizada depois
 
-"Busca bin·ria È um algoritmo notoriamente difÌcil de programar corretamente. Somente dezessete anos depois da invenÁ„o do algoritmo a primeira vers„o correta do programa foi publicada!" [Steven Skiena, The Algorithm Design Manual]
+"Busca bin√°ria √© um algoritmo notoriamente dif√≠cil de programar corretamente. Somente dezessete anos depois da inven√ß√£o do algoritmo a primeira vers√£o correta do programa foi publicada!" [Steven Skiena, The Algorithm Design Manual]
 
-@Ver a "alma" do cÛdigo
-"You don't have to believe in God, but you should believe in The Book." [Paul Erdˆs]
+@Ver a "alma" do c√≥digo
+"You don't have to believe in God, but you should believe in The Book." [Paul Erd√∂s]
 
 @Mergesort
 @Mergesort interativo 
 @Mergesort recursivo
 
-@Nem todo algoritmo recursivo È eficiente
-"A ComputaÁ„o se apoia sobre trÍs pernas: a correÁ„o, a eficiÍncia e a eleg‚ncia." [Imre Simon]
+@Nem todo algoritmo recursivo √© eficiente
+"A Computa√ß√£o se apoia sobre tr√™s pernas: a corre√ß√£o, a efici√™ncia e a eleg√¢ncia." [Imre Simon]
 
 @Fibonacci recursivo
 
-@Express„o bem formada usando Pilhas
+@Express√£o bem formada usando Pilhas
 
-@Dist‚ncias entre um nÛ e o resto da rede
+@Dist√¢ncias entre um n√≥ e o resto da rede
 
-@Um bom algoritmo È uma faca afiada
-"Um bom algoritmo È como uma faca afiada: ele faz o que dele se espera com o mÌnima de esforÁo. Usar um algoritmo errado para resolver um problema È como tentar cortar um bife com uma chave de fenda: vocÍ pode atÈ mesmo conseguir um resultado aceit·vel, mas vocÍ gastar· muito mais esforÁo que o necess·rio e È pouco prov·vel que o resultado ser· esteticamente agrad·vel." [Th. Cormen, Ch. Leiserson, R. Rivest, Introduction to Algorithms]
+@Um bom algoritmo √© uma faca afiada
+"Um bom algoritmo √© como uma faca afiada: ele faz o que dele se espera com o m√≠nima de esfor√ßo. Usar um algoritmo errado para resolver um problema √© como tentar cortar um bife com uma chave de fenda: voc√™ pode at√© mesmo conseguir um resultado aceit√°vel, mas voc√™ gastar√° muito mais esfor√ßo que o necess√°rio e √© pouco prov√°vel que o resultado ser√° esteticamente agrad√°vel." [Th. Cormen, Ch. Leiserson, R. Rivest, Introduction to Algorithms]
  
 @Boyer Moore
-Os algoritmos de ordenaÁ„o
+Os algoritmos de ordena√ß√£o
 algoritmo
 
-@Codificar algo simples È difÌcil
+@Codificar algo simples √© dif√≠cil
 [C.A.R.Hoare] 
 
 @Quicksort
 
-@Dois algoritmos, com n˙mero de passos proporcionais no pior caso, na mÈdia podem ser diferentes
+@Dois algoritmos, com n√∫mero de passos proporcionais no pior caso, na m√©dia podem ser diferentes
 
-"As famÌlias felizes parecem-se todas; as famÌlias infelizes s„o infelizes cada uma ‡ sua maneira." [Anna KariÍnina]
+"As fam√≠lias felizes parecem-se todas; as fam√≠lias infelizes s√£o infelizes cada uma √† sua maneira." [Anna Kari√™nina]
 
-@InserÁ„o e SeleÁ„o 
+@Inser√ß√£o e Sele√ß√£o 
 
-@ForÁa Bruta, Backtracking, EnumeraÁ„o
+@For√ßa Bruta, Backtracking, Enumera√ß√£o
 
-"Muitas vezes n„o h· maneira melhor de resolver um problema que tentar todas as possÌveis soluÁıes. Esta abordagem, chamada busca exaustiva, È quase sempre lenta, mas ‡s vezes ela È melhor que nada." [Ian Parberry, Problems on Algorithms]
+"Muitas vezes n√£o h√° maneira melhor de resolver um problema que tentar todas as poss√≠veis solu√ß√µes. Esta abordagem, chamada busca exaustiva, √© quase sempre lenta, mas √†s vezes ela √© melhor que nada." [Ian Parberry, Problems on Algorithms]
 
 @Arthur Merlim Games
-
