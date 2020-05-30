@@ -12,3 +12,4 @@ def BemFormada(s):
   return len(p) == 0
 print (BemFormada('((){()})'))
 print (BemFormada('({)}'))
+

@@ -1,0 +1,5 @@
+Pilhas
+LIFO Last In First Out
+p = []
+p.append(novo)
+x = p.pop()

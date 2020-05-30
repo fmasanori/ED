@@ -1,0 +1,9 @@
+print (fat(3))  ->  6
+fat(3)
+  if 3 <= 1:
+  return 3 * fib(2) = 3*2 = 6
+fat(2)
+  if 2 <= 1:
+  return 2 * fib(1) = 2*1 = 2
+fat(1)
+  if 1 <= 1: return 1

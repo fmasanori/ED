@@ -1,0 +1,25 @@
+Vetores em C tem inserção e remoção ineficientes, pior caso no início
+7, 4, 6, 0, 2, 3, 1, 5
+Listas Encadeadas resolvem isso
+
+struct cel {
+  int conteudo;
+  struct cel *seg;
+}
+typef struct cel celula;
+celula c;  
+celula *p;
+p = &c;
+c.conteudo; 
+p->conteudo; // (*p).conteudo
+c.seg;      
+p->seg;      // (*p).seg
+
+Insiro no início, portanto se quiser uma lista 1, 2, 3 devo inserir 3, 2, 1
+
+Listas Encadeadas podem ser
+implementadas com cabeça ou
+sem cabeça
+Vantagens de ter cabeça:
+-Não preciso testar lista vazia
+-Não uso ponteiro para ponteiro

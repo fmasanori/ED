@@ -1,0 +1,8 @@
+-ponteiro e a coisa apontada são duas realidades diferentes
+-não tem sentido um ponteiro que não aponta para nada
+
+-ponteiros servem para passagem de parâmetros por referência
+-podemos usar ponteiros para alocação do tamanho de um vetor ou matriz em tempo de execução
+
+-programar em C é como dançar num salão de baile encerado carregando facas na mão
+

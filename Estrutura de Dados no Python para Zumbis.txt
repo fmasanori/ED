@@ -1,0 +1,14 @@
+fmasanori.com
+bit.ly/PythonED
+
+Estrutura de Dados - Conceitos Básicos
+ADS da FATEC (Centro Paula Souza - SP)
+
+Bibliografia:
+1) Algoritmos em linguagem C, por Paulo Feofiloff, Campus
+www.ime.usp.br/~pf/algoritmos-livro/
+2) Entendendo Algoritmos: Um guia ilustrado para programadores e outros curiosos, por Aditya Y. Bhargava, Novatec Amazon
+github.com/egonSchiele/grokking_algorithms
+3) Introduction to Algorithms 
+by Cormen, Leiserson, Rivest & Stein
+4) The Art of Computer Programming, Donald Knuth

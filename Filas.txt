@@ -1,0 +1,5 @@
+FIFO First In First Out
+
+fila.append(novo)  #enfilera
+
+x = fila.pop(0)    #tira da fila
