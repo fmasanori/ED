@@ -1,0 +1,94 @@
+5 algoritmos
+2 "ruins" inserção e seleção
+3 "bons" mergesort quicksort
+         heapsort
+
+Como analisar um algoritmo
+Número passos e espaço ocupado
+Pior caso e caso médio
+
+Inserção algoritmo do baralho
+Percorro cada carta da esquerda para a direita
+Enfio a carta no lado esquerdo já ordenado
+1 0 2 6 3 4 7 5
+0 1               0 > 1
+0 1 2
+0 1 2 6 
+0 1 2 3 6         3 > 6
+0 1 2 3 4 6       4 > 6
+0 1 2 3 4 6 7     6 > 7
+0 1 2 3 4 5 6 7   5 > 6 7
+No pior caso n ** 2 passos
+Na média um pouco melhor toda vez que tiver número "grande" entrando
+
+Seleção troco o menor em frente
+Percorro da esquerda para direita
+Troco o atual com o menor em frente
+1 0 2 6 3 4 7 5
+0 1 2 6 3 4 7 5
+0 1 2 6 3 4 7 5
+0 1 2 6 3 4 7 5
+0 1 2 3 6 4 7 5
+0 1 2 3 4 6 7 5
+0 1 2 3 4 5 7 6
+0 1 2 3 4 5 6 7
+No pior caso n**2
+Na média também é n**2
+Cuidado com o uso de builtin functions como o min -> sublinear
+
+Mergesort dividir para conquistar
+Divido o vetor pela metade até chegar em tamanho 0 ou 1. Por definição ordenado. Junto os pedacinhos em pedaços maiores ordenados, até voltar ao vetor original.
+"Juntar" = Merge. Se tenho duas fileiras ordenadas de crianças, vendo a menor do início de cada fila, consigo mover para uma nova fileira a menor, repetindo o processo até acabarem as filas.
+1 0 2 6  3 4 7 5
+1 0  2 6  3 4  7 5
+0 1  2 6  3 4  5 7
+0 1 2 6  3 4 5 7
+0 1 2 3 4 5 6 7
+log(n, 2) * n passos
+cuidado para juntar gasto mais espaço
+Como as duas metades são independentes posso fazer em paralelo
+
+Heapsort usa a ideia da Busca Binaria nos índices do vetor
+Dois passos, colocar todos numa estrutura, chamada heap, onde o índice k tem conteúdo maior ou igual que seus dois "filhos", 2*k e 2*k+1. No final, o primeiro será o maior de todos, não garantindo a ordenação do resto. Eu troco o primeiro com o último. Como entrou um elemento "fraco" na primeira posição, eu "sacudo" até ele descer à sua posição correta. Note que colocar todo mundo na estrutura de heap, ou fazer o processo de "sacode" é rápido, log(n, 2) passos.
+1 2 3 4 5 6 7 8 índices
+1 0 2 6 3 4 7 5
+2 0 1
+2 6 1 0
+6 2 1 0 
+6 3 1 0 2 
+6 3 4 0 2 1
+6 3 7 0 2 1 4
+7 3 6 0 2 1 4
+7 3 6 5 2 1 4 0
+7 5 6 3 2 1 4 0 gasto n * log(n, 2) passos
+1 2 3 4 5 6 7 8 índices
+7 5 6 3 2 1 4 0 troco 7 0
+0 5 6 3 2 1 4 7
+6 5 0 3 2 1 4
+6 5 4 3 2 1 0   troco 6 0
+0 5 4 3 2 1 6
+5 0 4 3 2 1
+5 3 4 0 2 1     troco 5 1
+1 3 4 0 2 5
+4 3 1 0 2       troco 4 2
+2 3 1 0 4
+3 2 1 0         troco 3 0
+0 2 1 3
+2 0 1           troco 2 1
+1 0 2           troco 1 0
+0 1 
+0 1 2 3 4 5 6 7 n * log(n, 2)
+2 * log(n, 2) * n
+
+Quicksort pivô divide 
+Escolho um pivô, divido o mundo em menores e maiores que ele. O pivô fica na posição definitiva. Faço o mesmo para as duas metades. Se dividir em duas partes sempre, dobro o número de elementos ordenados no passo seguinte.
+1 0 2 6 3 4 7 5
+0 1 2 6 3 4 7 5
+    2 6 3 4 7 5
+      3 4 5 6 7
+      3 4 5
+        4 5
+Pior caso é o vetor ordenado, pois não consigo nunca dividir o mundo em dois. Porém é muito raro! Na média, como divido em 2, tenho log(n, 2) * n passos. Para vetores pequenos você não conseguirá ver a vantagem, mas pense que é um acumulado 1 + 2 + 4 + 8 + ... de elementos na posição ordenada.
+
+
+

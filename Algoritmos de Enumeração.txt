@@ -1,0 +1,35 @@
+Enumerar = fazer uma lista de todos os objetos
+Força Bruta ou Backtracking
+Subconjuntos ou Permutações
+2**n-1  e n! passos
+Os dois são muito lentos, porém pode ser melhor que nada
+Note que 2**n é muito menor que n! Faça no IDLE para alguns casos a experiência.
+n = 4
+1
+12
+123
+1234
+124
+13
+134
+14
+2
+23
+234
+24
+3
+34
+4
+
+n = 2
+12
+21
+n = 3
+123
+132
+213
+231
+312
+321
+n = 4
+1234
