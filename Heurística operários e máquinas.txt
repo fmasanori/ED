@@ -1,0 +1,2 @@
+Aproximação, nem sempre consigo o maior casamento possível (solução EXATA)
+Heurística GULOSA pega a máquina que mais conveniente a cada passo, isto é, com menos operários

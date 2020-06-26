@@ -1,4 +1,5 @@
 fmasanori.com
+
 bit.ly/PythonED
 
 Estrutura de Dados - Conceitos Básicos
