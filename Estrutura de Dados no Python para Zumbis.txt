@@ -1,7 +1,7 @@
 fmasanori.com
 
 bit.ly/PythonED
-
+ED = Algoritmos II - DADOS
 Estrutura de Dados - Conceitos Básicos
 ADS da FATEC (Centro Paula Souza - SP)
 
@@ -13,3 +13,4 @@ github.com/egonSchiele/grokking_algorithms
 3) Introduction to Algorithms 
 by Cormen, Leiserson, Rivest & Stein
 4) The Art of Computer Programming, Donald Knuth
+5) wiki.python.org/moin/TimeComplexity
