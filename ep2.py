@@ -1,6 +1,6 @@
 from Merlin import *
 
-f = open('casamento no.txt')
+f = open('casamento.txt')
 damas = []
 queridos = {}
 for linha in f:
