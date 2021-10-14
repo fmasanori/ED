@@ -10,9 +10,8 @@ def quicksort(v):
 
 from time import time
 from random import shuffle
-v = list(range(1000))
+v = list(range(20000))
 shuffle(v)
-
 t1 = time()
 quicksort(v)
 t2 = time()

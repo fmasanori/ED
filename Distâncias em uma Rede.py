@@ -17,4 +17,5 @@ def Distancias(n, origem):
         d[y] = d[x] + 1
         f.append(y)
   return d
-print (Distancias(6, 3))
+
+print (Distancias(len(A), 3))

@@ -6,9 +6,8 @@ def heapsort(v):
 
 from time import time
 from random import shuffle
-v = list(range(2000000))
+v = list(range(20000))
 shuffle(v)
-
 t1 = time()
 heapsort(v)
 t2 = time()

@@ -20,11 +20,13 @@ def merge(e, d):
     r += d[j:]
     return r
 
-from random import sample
-v = sample(range(10), 10)
-print (v)
+from time import time
+from random import shuffle
+v = list(range(20000))
+shuffle(v)
+t1 = time()
 v = mergesort(v)
-print (v)
-
+t2 = time()
+print (t2-t1)
 
 

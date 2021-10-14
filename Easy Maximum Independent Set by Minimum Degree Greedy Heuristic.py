@@ -15,8 +15,7 @@ def remove(vizinhos):
 
 s = []
 while G:
-  v = sorted(G,
-      key=lambda x: len(G[x]))[0]
+  v = min(G, key=lambda x: len(G[x]))
   s.append(v)
   vizinhos = G[v]
   del G[v]

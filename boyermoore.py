@@ -4,7 +4,7 @@ def boyermoore(p, t):
     if m > n: return -1 
     pulo = [m for k in range(256)] 
     for k in range(m - 1): pulo[ord(p[k])] = m-k-1
-    pulo = tuple(pulo)
+    pulo = tuple(pulo) #imutável é mais rápido
     k = m - 1
     while k < n:
         j = m - 1
