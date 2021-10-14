@@ -52,8 +52,7 @@ int main(void){
         Insere(randint(0, 9), lst);
     printf("Antes: ");
     Imprima(lst);
-    lst = libera(lst);
-    if (lst == NULL)
-       printf("Vazia");
+    lst->seg = libera(lst);
+    Imprima(lst);
     system("pause");
 }

@@ -9,8 +9,7 @@ def enumerações(items):
         else:
             s[k-1] += 1
             k -= 1
-        if k == 0:
-            break
+        if k == 0: break
         else:
             lista = []
             for j in range(1, k+1):
@@ -26,12 +25,17 @@ def combinações(items, n):
 
 def permutações(items):
     return combinações(items, len(items))
-print ('Enumerações')
-for p in enumerações(['Jessica', 'Fernanda', 'Pamela', 'Renata']):
-    print (p)
-x = input('Digite algo...')
-print ('Permutações')
-for p in permutações(['Adriano','Bruno', 'Diogo', 'Eclis', 'Gabriel', 'Leandro', 'Walber']):
-    print (p)
 
+##print ('Permutações')
+##for p in permutações([1, 2, 3, 4, 5, 6]):
+##    print (p)
+##    
+##print ('Enumerações')
+##for p in enumerações([1, 2, 3, 4, 5, 6]):
+##    print (p)
+    
+##for p in permutações(['Adriano','Bruno', 'Diogo', 'Eclis', 'Gabriel', 'Leandro', 'Walber']):
+##    print (p)
 
+##for p in enumerações(['Jessica', 'Fernanda', 'Pamela', 'Renata']):
+##    print (p)

@@ -16,12 +16,12 @@ void troca (int *p, int *q){ // passagem por referencia
 int main(void){
     int a = 33, b = 77;
     printf ("Antes  a=%d, b=%d\n", a, b);
-    //troca (&a, &b);
-    troca2 (a, b);
+    troca (&a, &b);
+    //troca2 (a, b);
     printf ("Depois a=%d, b=%d\n", a, b);
 
     int *v; // int v[10];
-    int i; 
+    int i;
     int n;
     scanf("%d", &n);
     v = malloc (n * sizeof (int));
